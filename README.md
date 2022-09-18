@@ -10,10 +10,11 @@ MarsRealEstate is a basic app with Retrofit, Glide and Gson in Kotlin.
 * DataBinding
 * Safe Nav Args
 * Material Design
-
 Api: https://mars.udacity.com/
 
 
+### Video
+https://user-images.githubusercontent.com/70481060/190903031-9a168bc2-4f8b-4325-a2ed-a7a09009d074.mp4
 
 
 
