@@ -12,7 +12,7 @@ import com.kenbu.marssale.view.CatalogFragmentDirections
 class AdapterViewHolder(private val estateDataBinding: ViewDataBinding) :
     RecyclerView.ViewHolder(estateDataBinding.root) {
     /**
-     * View Holder that Change Instances
+     * View Holder that Change View Instances
      *
      * @param estateModel
      */
