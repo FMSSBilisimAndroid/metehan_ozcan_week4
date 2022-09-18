@@ -7,6 +7,6 @@ import kotlinx.android.parcel.Parcelize
 data class RealEstateModel(
     val price: Int,
     val id: String,
-    var type: String,
+    val type: String,
     val img_src: String
 ) : Parcelable

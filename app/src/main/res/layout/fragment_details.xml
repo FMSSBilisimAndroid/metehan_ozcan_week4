@@ -46,7 +46,7 @@
             android:layout_marginTop="@dimen/_10sdp"
             android:layout_marginEnd="@dimen/_14sdp"
             android:fontFamily="@font/lora"
-            android:text="@{estateList.type}"
+
             android:textColor="@color/white"
             android:textFontWeight="700"
             android:textSize="@dimen/_21ssp"
@@ -54,7 +54,7 @@
             app:layout_constraintTop_toTopOf="@+id/itemView"
             tools:text="Test"
             tools:textColor="@color/black" />
-
+<!-- android:text="@{estateList.type}"-->
         <View
             android:id="@+id/view"
             android:layout_width="@dimen/_250sdp"

@@ -78,13 +78,13 @@
             android:layout_marginStart="@dimen/_10sdp"
             android:layout_marginTop="@dimen/_4sdp"
             android:fontFamily="@font/lora"
-            android:text="@{estateList.type}"
+
             android:textColor="@color/white"
             android:textSize="@dimen/_9ssp"
             app:layout_constraintStart_toStartOf="@+id/itemView"
             app:layout_constraintTop_toTopOf="@+id/itemView" />
 
-
+<!--            android:text="@{estateList.type}"-->
     </androidx.constraintlayout.widget.ConstraintLayout>
 
 </layout>

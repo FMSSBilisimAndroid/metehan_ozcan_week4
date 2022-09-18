@@ -35,6 +35,11 @@ class DetailsFragment : Fragment() {
      */
     private fun bindingInit() {
         binding.apply {
+            if (estateList?.type == "buy") {
+                itemStatusView.text = "For Sale"
+            } else {
+                itemStatusView.text = "For Rent"}
+
             buyButton.setOnClickListener() {
                 Snackbar.make(
                     it,
@@ -54,5 +59,6 @@ class DetailsFragment : Fragment() {
      */
     private fun getData() {
         binding.estateList = args.estateList
+
     }
 }

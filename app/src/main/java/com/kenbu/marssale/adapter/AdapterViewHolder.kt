@@ -19,12 +19,16 @@ class AdapterViewHolder(private val estateDataBinding: ViewDataBinding) :
     fun onBind(estateModel: RealEstateModel) {
         val binding = estateDataBinding as ItemLayoutBinding
 
-        if (estateModel.type == "buy") {
-            estateModel.type = "For Sale"
-        } else {
-            estateModel.type = "For Rent"
-        }
+
         binding.apply {
+
+            if (estateModel.type == "buy") {
+                itemStatusView.text = "For Sale"
+            } else {
+                itemStatusView.text = "For Rent"
+            }
+
+
             //Setting Layout Binding Adapter
             setVariable(BR.estateList, estateModel)
             //Navigation From Catalog to Clicked Image View
